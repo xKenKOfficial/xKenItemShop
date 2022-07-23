@@ -1,0 +1,31 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenItemShop"
+
+# Tutaj mozna ustawic wiadomosc o braku permisji:
+no_permission: "&8>> &cNie masz dostepu do tej komendy!"
+
+# Tutaj mozna ustawic wiadomosc, jesli przekroczona zostala ilosc argumentow w komendzie:
+wrong_args: "&8>> &cZa duza ilosc argumentow!"
+
+# Tutaj mozna ustawic wiadomosc, jesli dany gracz nie jest online:
+offline_player: "&8>> &cTen gracz nie jest online!"
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /itemshop:
+itemshop_command_usage: "&8>> &7Poprawne uzycie&8: &b/itemshop (gracz) (ranga)"
+
+# Tutaj mozna ustawic wiadomosc, jesli dana ranga nie zostala odnaleziona:
+itemshop_not_find_rank: "&8>> &cTaka ranga nie zostala odnaleziona!"
+
+# Tutaj mozna ustawic jakie rangi ma plugin wykrywac:
+itemshop_in_web:
+  test:
+    name: "&3&lTest"
+    console_command: "pex user {GRACZ} group set {RANGA}"
+    broadcast:
+      - '&8&l&m----------[&b&lItem&f&lShop&8&l&m]----------'
+      - '&8>> &7Gracz &b{GRACZ} &7zakupil range&8: {NAZWA_RANGI}'
+      - '&8>> &7Dziekujemy za wsparcie serwera &c&l<3'
+      - '&8&l&m-------------------'
+
+# Tutaj mozna wlaczyc i wylaczyc informacje o pluginie:
+plugin_info: true

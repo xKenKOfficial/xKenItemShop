@@ -1,0 +1,10 @@
+main: x.KenKOfficial.ItemShop.Basic.Main
+version: 1.0-Beta
+name: xKenItemShop
+author: xKenKOfficial
+description: Plugin Autorstwa KenKOfficial
+website: https://discord.gg/2HDuZrEFTg
+
+commands:
+  itemshop:
+    aliases: [is]
